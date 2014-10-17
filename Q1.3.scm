@@ -1,0 +1,5 @@
+(define (hoge a b c)
+  (cond ((<= a b c) (+ (* b b) (* c c)))
+        ((<= b c a) (+ (* c c) (* a a)))
+        ((<= c a b) (+ (* a a) (* b b)))))
+(print (hoge 0 2 2))
