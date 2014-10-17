@@ -9,10 +9,7 @@
 (define (h n) (A 2 n))
 (define (k n) (* 5 n n))
 
-(use slib)
-(require 'trace)
-;(trace A)
-#|
+
 (print (A 1 10))
 (print (A 2 4))
 (print (A 3 3))
@@ -25,10 +22,8 @@
   (lambda (n)
   (print (list n (g n) (expt 2 n))))
   (iota 10 1))
-|#
-;fn=(n)->
-; if n <= 1 then Math.pow(2, 1)
-;  else Math.pow(2, fn(n-1))
+
+
 (define (my-fn n)
   (if (<= n 1)
       (expt 2 1)
