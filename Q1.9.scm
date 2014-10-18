@@ -45,7 +45,7 @@
 >>(inc 8)
 >>9
 9
-;;recurcive
+;it looks like "liner recursive process".
 |#
 
 
@@ -78,5 +78,5 @@
 >>(+ 3 6)
 >>9
 9
-;loop
+;it looks like "liner interative process".
 |#
