@@ -1,8 +1,3 @@
-(use slib)
-(require 'trace)
-;(trace A)
-
-
 ;; liner iterate process??
 (define (pascals-triangle n)
   (define (getline lst)
