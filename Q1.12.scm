@@ -11,7 +11,7 @@
         )
       )
     )
-    (sum (append (cons 0 lst) (cons 0 '())) ())
+    (sum (append (cons 0 lst) (cons 0 '())) '())
   )
   (define (iter lst n)
     (if (= n 0)
